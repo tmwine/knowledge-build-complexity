@@ -1,0 +1,3 @@
+# this is a kludge file, to help avoid relative path mistakes for caching Wikipedia page text;
+# removing this file can produce errors if using default Wikipedia cache path
+389073500377790555162751634721
