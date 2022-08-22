@@ -67,14 +67,14 @@ for this repository:
 
 This repository's code is issued under the MIT license. However there are two integrated files with their own licenses:
 
-ps_wiktionary.json:
-	this is a pared down version of a full wiktionary dump obtained via [kaikki.org](https://kaikki.org/dictionary/index.html); this highly reduced file contains plural / singular complementation pairs for all words in wiktionary
-	the official citation for the kaikki data is, Tatu Ylonen: Wiktextract: Wiktionary as Machine-Readable Structured Data, Proceedings of the 13th Conference on Language Resources and Evaluation (LREC), pp. 1317-1325, Marseille, 20-25 June 2022
-	the kaikki file, and the wiktionary data it contains, are both licensed under CC-BY-SA and GFDL
+*ps_wiktionary.json*:
+- this is a pared down version of a full wiktionary dump obtained via [kaikki.org](https://kaikki.org/dictionary/index.html); this highly reduced file contains plural / singular complementation pairs for all words in wiktionary
+- the official citation for the kaikki data is, Tatu Ylonen: Wiktextract: Wiktionary as Machine-Readable Structured Data, Proceedings of the 13th Conference on Language Resources and Evaluation (LREC), pp. 1317-1325, Marseille, 20-25 June 2022
+- the kaikki file, and the wiktionary data it contains, are both licensed under CC-BY-SA and GFDL
 
-unigram_freq.csv:
-	this is a list of the most common 333,333 words in the English language, and their frequency of use, obtained from [kaggle.com](https://www.kaggle.com/rtatman/english-word-frequency)
-	the kaggle page, and its reference, to [this site holding the actual word data](https://norvig.com/ngrams/) are both licensed under the MIT license
+*unigram_freq.csv*:
+- this is a list of the most common 333,333 words in the English language, and their frequency of use, obtained from [kaggle.com](https://www.kaggle.com/rtatman/english-word-frequency)
+- the kaggle page, and its reference, to [this site holding the actual word data](https://norvig.com/ngrams/) are both licensed under the MIT license
 
 
 
