@@ -22,15 +22,18 @@ Some tips for the BERT model / WTS:
 import sys
 import pickle
 from src.tasks.infer import infer_from_trained	# BERT relation extractor's "src" package needs to be in sys.path
-with open(<file path for relations.pkl>,'rb') as fp:
-	Rel_Map = pickle.load(fp)
-relations_dict = Rel_Map.idx2rel
-print(relations_dict[x])	# should show "Product-Producer(e1,e2)"
+
 class args:	# dummy class
 	pass
 args.model_no = 0; args.model_size='bert-base-uncased'; args.num_classes=19
 inferer = infer_from_trained(args,detect_entities=False)
 x = inferer.infer_sentence("A [E2]brickworks[/E2] is a place where [E1]bricks[/E1] are manufactured.",detect_entities=False)
+
+# and if wanting to resolve the code returned from infer_sentence:
+with open(<file path for relations.pkl>,'rb') as fp:
+	Rel_Map = pickle.load(fp)
+relations_dict = Rel_Map.idx2rel
+print(relations_dict[x])	# should show "Product-Producer(e1,e2)"
 ```
 
 Once the relation extractor is working, clone this repo to your local drive. Assume you've named the folder knowledge-build-complexity-folder. You need to provide a path to the relation extractor in this repo's BERT.py script:
