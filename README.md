@@ -1,4 +1,4 @@
-This is a GitHub repository for the Python project described in the article, ["KBC: The Knowledge Build Complexity"](link). The purpose of the code is to provide a rough, automated method for estimating the complexity of an arbitrary input entity, based on human knowledge inputs.
+This is a GitHub repository for the Python project described in the preprint, ["KBC: The Knowledge Build Complexity"](https://engrxiv.org/preprint/view/2528), and on its [project webpage](https://tmwine.github.io/2022/06/15/knowledge-build-complexity.html). The purpose of the code is to provide a rough, automated method for estimating the complexity of an arbitrary input entity, based on human knowledge inputs.
 
 
 ## Code Overview
